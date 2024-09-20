@@ -3,32 +3,29 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro a,b,c,menor
+		real a, b, c
+		
 		escreva("primeiro valor")
 		leia(a)
+		
 		escreva("segundo valor")
 		leia(b)
+		
 		escreva("terceiro valor")
-		leia(C)
-		
-	
-		se(a < = b e a <= c)
+		leia(c)
+			
+		se(a <= b e a <= c)
 		{
-		escreva("menor = " + a) 
+			escreva("menor = " + a) 
 		}
-		
 		senao se (b <= c)
 		{
-		escreva("menor = " + b)
+			escreva("menor = " + b)
 		}
-
 		senao
 		{
-		escreva("menor = " + c)
+			escreva("menor = " + c)
 		}	
-			
-		
-	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -36,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 82; 
+ * @POSICAO-CURSOR = 168; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
